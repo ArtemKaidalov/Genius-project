@@ -1,3 +1,40 @@
+/* poppins-300 - latin */
+@font-face {
+  font-display: swap;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 300;
+  src: url('../fonts/poppins-v21-latin-300.woff2') format('woff2'),
+    url('../fonts/poppins-v21-latin-300.woff') format('woff');
+}
+
+@font-face {
+  font-display: swap;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/poppins-v21-latin-regular.woff2') format('woff2'),
+    url('../fonts/poppins-v21-latin-regular.woff') format('woff');
+}
+/* poppins-600 - latin */
+@font-face {
+  font-display: swap;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  src: url('../fonts/poppins-v21-latin-600.woff2') format('woff2'),
+    url('../fonts/poppins-v21-latin-600.woff') format('woff');
+}
+/* poppins-900 - latin */
+@font-face {
+  font-display: swap;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 900;
+  src: url('../fonts/poppins-v21-latin-900.woff2') format('woff2'),
+    url('../fonts/poppins-v21-latin-900.woff') format('woff');
+}
+
 :root {
   --color-primary-dark: #31261a;
   --color-primary-light: #faf4ea;
@@ -7,6 +44,7 @@
 
 body {
   color: var(--color-primary-dark);
+  font-family: 'Poppins', sans-serif;
 }
 
 ul {
@@ -35,6 +73,7 @@ ul {
 
 .hero-title {
   color: var(--color-primary-light);
+  font-family: 'Poppins', sans-serif;
 }
 
 .hero-title .accent {
