@@ -273,14 +273,6 @@ ul {
   font-weight: 300;
 }
 
-.footer {
-  background-image: url(./picture/footer.png);
-  background-color: var(--color-primary-dark);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-}
-
 .contact-title {
   margin-bottom: 16px;
 }
@@ -296,6 +288,18 @@ ul {
   color: var(--color-brand-normal);
 }
 
+.address-icon {
+  fill: var(--color-primary-light);
+}
+
 .address-copyright {
   font-size: 14px;
+}
+
+.footer {
+  background-image: url(./picture/footer.png);
+  background-color: var(--color-primary-dark);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
