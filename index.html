@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Modern bakery</title>
-    <link rel="stylesheet" href="./styles.css" />
+    <link rel="stylesheet" href="./css/main.min.css" />
   </head>
   <body>
     <header class="header">
@@ -140,6 +140,11 @@
             <ul class="formats-list">
               <li class="formats-item">
                 <article class="format-card">
+                  <img
+                    class="format-image"
+                    src="../picture/kitchen-1.jpg"
+                    alt="Walrus format"
+                  />
                   <h3 class="format-title" lang="en">Walrus</h3>
                   <div class="format-text">
                     <p>Площа: до 120 м2</p>
@@ -324,7 +329,7 @@
         <button class="modal-btn-close" type="button">Close</button>
         <h2>Замовити дзвінок</h2>
         <p>Залишіть заявку та наш спеціаліст зв'яжеться з Вами!</p>
-        <form name="modal-form" autocomplete="off" novalidate>
+        <form name="modal-form " autocomplete="off">
           <div class="form-field">
             <label class="form-label visually-hidden" for="user-name"
               >Ім'я</label
@@ -335,6 +340,7 @@
               name="user-name"
               id="user-name"
               placeholder="Ім'я"
+              required
             />
           </div>
           <div class="form-field">
@@ -373,6 +379,6 @@
         </form>
       </div>
     </div>
-    <script src="./modal.js"></script>
+    <script src="./javaScypt/modal.js"></script>
   </body>
 </html>

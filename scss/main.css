@@ -1,39 +1,31 @@
 @font-face {
   font-display: swap;
-  font-family: 'Poppins';
+  font-family: "Poppins";
   font-style: normal;
   font-weight: 300;
-  src: url('../fonts/poppins-v21-latin-300.woff2') format('woff2'),
-    url('../fonts/poppins-v21-latin-300.woff') format('woff');
+  src: url("../fonts/poppins-v21-latin-300.woff2") format("woff2"), url("../fonts/poppins-v21-latin-300.woff") format("woff");
 }
-
 @font-face {
   font-display: swap;
-  font-family: 'Poppins';
+  font-family: "Poppins";
   font-style: normal;
   font-weight: 400;
-  src: url('../fonts/poppins-v21-latin-regular.woff2') format('woff2'),
-    url('../fonts/poppins-v21-latin-regular.woff') format('woff');
+  src: url("../fonts/poppins-v21-latin-regular.woff2") format("woff2"), url("../fonts/poppins-v21-latin-regular.woff") format("woff");
 }
-
 @font-face {
   font-display: swap;
-  font-family: 'Poppins';
+  font-family: "Poppins";
   font-style: normal;
   font-weight: 600;
-  src: url('../fonts/poppins-v21-latin-600.woff2') format('woff2'),
-    url('../fonts/poppins-v21-latin-600.woff') format('woff');
+  src: url("../fonts/poppins-v21-latin-600.woff2") format("woff2"), url("../fonts/poppins-v21-latin-600.woff") format("woff");
 }
-
 @font-face {
   font-display: swap;
-  font-family: 'Poppins';
+  font-family: "Poppins";
   font-style: normal;
   font-weight: 900;
-  src: url('../fonts/poppins-v21-latin-900.woff2') format('woff2'),
-    url('../fonts/poppins-v21-latin-900.woff') format('woff');
+  src: url("../fonts/poppins-v21-latin-900.woff2") format("woff2"), url("../fonts/poppins-v21-latin-900.woff") format("woff");
 }
-
 :root {
   --color-primary-dark: #31261a;
   --color-primary-light: #faf4ea;
@@ -48,10 +40,11 @@
 *::before {
   box-sizing: border-box;
 }
+
 body {
   color: var(--color-primary-dark);
   background-color: var(--color-primary-light);
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 18px;
   line-height: 1.5;
   margin: 0;
@@ -90,16 +83,6 @@ ul {
   overflow: hidden;
 }
 
-.section {
-  padding: 48px 0;
-}
-
-.container {
-  width: 100%;
-  max-width: 1288px;
-  margin: 0 auto;
-  padding: 0 24px;
-}
 .button {
   padding: 16px 32px;
   color: var(--color-primary-light);
@@ -154,13 +137,7 @@ ul {
 
 .hero-section {
   padding: 272px 0;
-  background-image: linear-gradient(
-      102.76deg,
-      rgba(18, 18, 17, 0.78) 2.03%,
-      rgba(18, 18, 17, 0.6) 58.46%,
-      rgba(18, 18, 17, 0) 90.36%
-    ),
-    url('../picture/hero-section-backgraund.jpg');
+  background-image: linear-gradient(102.76deg, rgba(18, 18, 17, 0.78) 2.03%, rgba(18, 18, 17, 0.6) 58.46%, rgba(18, 18, 17, 0) 90.36%), url("../picture/hero-section-backgraund.jpg");
   background-repeat: no-repeat;
   background-position: center top;
   background-size: cover;
@@ -176,6 +153,17 @@ ul {
 
 .hero-title .accent {
   color: var(--color-brand-normal);
+}
+
+.section {
+  padding: 48px 0;
+}
+
+.container {
+  width: 100%;
+  max-width: 1288px;
+  margin: 0 auto;
+  padding: 0 24px;
 }
 
 .adventages-section {
@@ -226,6 +214,7 @@ ul {
 .traditions-title {
   margin-bottom: 42px;
 }
+
 .traditions-text .brand {
   color: var(--color-brand-normal);
   font-weight: 600;
@@ -249,7 +238,7 @@ ul {
   display: block;
   width: 352px;
   border: 2px solid var(--color-brand-light);
-  content: '';
+  content: "";
 }
 
 .chefs-title::before {
@@ -266,8 +255,7 @@ ul {
 
 .chef-photo {
   border-radius: 4px 4px 4px 200px;
-  box-shadow: -16px 16px 0 0 var(--color-primary-light),
-    -16px 16px 0 2px var(--color-secondary-dark);
+  box-shadow: -16px 16px 0 0 var(--color-primary-light), -16px 16px 0 2px var(--color-secondary-dark);
 }
 
 .chefs-list {
@@ -303,6 +291,7 @@ ul {
   align-items: center;
   gap: 32px;
 }
+
 .formats-list {
   display: flex;
   gap: 20px;
@@ -314,12 +303,7 @@ ul {
 
 .format-card {
   padding: 24px;
-  background-image: linear-gradient(
-    180deg,
-    rgba(49, 38, 26, 0) 55.21%,
-    rgba(49, 38, 26, 0.71) 72.92%,
-    var(--color-primary-dark) 100%
-  );
+  background-image: linear-gradient(180deg, rgba(49, 38, 26, 0) 55.21%, rgba(49, 38, 26, 0.71) 72.92%, var(--color-primary-dark) 100%);
   border: 1px solid lightgray;
   border-radius: 16px;
   height: 444px;
@@ -407,21 +391,21 @@ ul {
   position: absolute;
   bottom: 0;
   background-repeat: no-repeat;
-  content: '';
+  content: "";
 }
 
 .footer::before {
   width: 180px;
   height: 120px;
   left: 0;
-  background-image: url('./picture/decor-bread-small.png');
+  background-image: url("./picture/decor-bread-small.png");
 }
 
 .footer::after {
   width: 380px;
   height: 190px;
   right: 0;
-  background-image: url('./picture/decor-bread-large.png');
+  background-image: url("./picture/decor-bread-large.png");
 }
 
 .footer-container {
@@ -445,6 +429,7 @@ ul {
 .address-info {
   flex-grow: 1;
 }
+
 .address-link {
   color: var(--color-primary-light);
   font-size: 16px;
@@ -534,10 +519,20 @@ ul {
   outline: none;
 }
 
+.form-input::-moz-placeholder {
+  color: var(--color-secondary-dark);
+  font-size: 16px;
+  line-height: 1.17;
+}
+
 .form-input::placeholder {
   color: var(--color-secondary-dark);
   font-size: 16px;
   line-height: 1.17;
+}
+
+.form-input:focus::-moz-placeholder {
+  color: var(--color-primary-dark);
 }
 
 .form-input:focus::placeholder {
@@ -561,4 +556,4 @@ ul {
 .form-terms-link {
   color: var(--color-primary-dark);
   text-underline-offset: 2px;
-}
+}/*# sourceMappingURL=main.css.map */
