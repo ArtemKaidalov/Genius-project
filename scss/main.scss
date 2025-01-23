@@ -1,45 +1,25 @@
 @import './utils/fonts';
-
 @import './utils/variables';
-
 @import './base';
-
+@import './utils/texts';
 @import './utils/utils';
-
 @import './components/buttons';
-
 @import './components/links';
-
+@import './components/input';
 @import './components/header';
-
 @import './components/hero';
-
 @import './components/adventages';
-
 @import './components/sections';
-
 @import './components/traditions';
-
 @import './components/chefs_section';
-
 @import './components/formats';
-
 @import './components/carousel';
-
-@import './components/_contacts.scss';
-
+@import './components/contact-section';
 @import './components/footer';
-
 @import './components/addreses';
-
 @import './components/backdrop';
-
 @import './components/modal';
-
-@import './components/forms';
-
-@import './utils/texts.scss';
-
-@import './components/contsiners';
-
+@import './components/form-terms';
+@import './components/container';
 @import './components/chef-card';
+@import './components/formats-section';
