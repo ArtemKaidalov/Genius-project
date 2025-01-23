@@ -5,12 +5,9 @@
     font-size: 64px;
     font-weight: 600;
     line-height: 1.3;
-  }
-  &__centered {
-    text-align: center;
-  }
-}
 
-.section-title .accent {
-  color: var(--color-brand-dark);
+    &__centered {
+      text-align: center;
+    }
+  }
 }
